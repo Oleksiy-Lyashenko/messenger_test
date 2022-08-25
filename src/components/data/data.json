@@ -1,0 +1,40 @@
+[
+  {
+    "id": 0,
+    "name": "Alex Bolduin",
+    "messages": [
+      {
+        "id": 0,
+        "type": "inbox",
+        "text": "Hello"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Oleg Bolduin",
+    "messages": [
+      {
+        "id": 0,
+        "type": "inbox",
+        "text": "Hello"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Mayor Bolduin",
+    "messages": [
+      {
+        "id": 0,
+        "type": "inbox",
+        "text": "Hello"
+      },
+      {
+        "id": 1,
+        "type": "outbox",
+        "text": "Hi Alex!"
+      }
+    ]
+  }
+]
