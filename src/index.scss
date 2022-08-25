@@ -25,7 +25,7 @@ code {
   align-items: center;
   justify-content: center;
 
-  background-color: blue;
+  background-color: rgb(38, 154, 165);
 
   box-sizing: border-box;
 }
@@ -177,6 +177,7 @@ code {
 }
 
 .right-side {
+  position: relative;
   flex-basis: 65%;
   display: flex;
   flex-direction: column;
@@ -204,6 +205,8 @@ code {
 
 .text {
   flex-basis: 75%;
+  display: flex;
+  flex-direction: column-reverse;
 
   border-top: 1px solid #dbd6d6;
   border-bottom: 1px solid #dbd6d6;

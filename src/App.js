@@ -65,7 +65,9 @@ function App() {
 
     setNewText('');
 
-    getMessage();
+    setTimeout(() => {
+      getMessage();
+    }, 4000);
   };
 
   return (
